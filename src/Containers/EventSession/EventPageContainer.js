@@ -95,7 +95,7 @@ const EventPageContainer = (props) => {
 
   return (
     <div className={classes.root}>
-      <Page title={`Veertly | ${eventSessionDetails.title}`}> </Page>
+      <Page title={`HADATH | ${eventSessionDetails.title}`}> </Page>
 
       <CenteredTopbar showCreate={true} />
       <div className={classes.pageContainer}>

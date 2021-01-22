@@ -102,7 +102,7 @@ function LoginView({ loginWithEmail }) {
     dispatch(resetAccountState());
   };
   return (
-    <Page className={classes.root} title="Veertly | Login">
+    <Page className={classes.root} title="HADATH | Login">
       <Container maxWidth="xs">
         <Card className={classes.card}>
           <CardContent className={classes.content}>
@@ -113,7 +113,7 @@ function LoginView({ loginWithEmail }) {
               Sign in
             </Typography>
             <Typography variant="subtitle1" color="textSecondary">
-              Sign in on the Veertly platform
+              Sign in on the HADATH platform
             </Typography>
             <Box mt={3}>
               <LoginForm

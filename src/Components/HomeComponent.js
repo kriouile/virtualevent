@@ -67,7 +67,7 @@ export default withRouter(props => {
   return (
     <React.Fragment>
       {/* Hero unit */}
-      <Page title="Veertly | Virtual events, virtual networking!"></Page>
+      <Page title="HADATH | Virtual events, virtual networking!"></Page>
       <div className={classes.heroContent}>
         <Container maxWidth="md">
           <div className={classes.heroButtons}>
@@ -84,15 +84,7 @@ export default withRouter(props => {
                   Create new event
                 </Button>
               </Grid>
-
-
-
-
-              
-
             </Grid>
-
-            
             <MarginProvider top={16}>
               <CompatibilityInfoAlert className={classes.alertDialog}/>
             </MarginProvider>

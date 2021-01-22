@@ -255,7 +255,7 @@ const EventSessionContainer = React.memo(() => {
 
   if (!eventSessionDetails) {
     return (
-      <Page title="Veertly | Event not found">
+      <Page title="HADATH | Event not found">
         <div
           className={clsx({
             [classes.root]: true,

@@ -101,7 +101,7 @@ function RegisterView() {
   };
 
   return (
-    <Page className={classes.root} title="Veertly | Create Account">
+    <Page className={classes.root} title="HADATH | Create Account">
       <Container maxWidth="xs">
         <Card className={classes.card}>
           <CardContent className={classes.content}>
@@ -112,7 +112,7 @@ function RegisterView() {
               Sign up
             </Typography>
             <Typography variant="subtitle1" color="textSecondary">
-              Sign up on the Veertly platform
+              Sign up on the HADATH platform
             </Typography>
             <Box mt={3}>
               <RegisterForm onSubmitSuccess={handleSubmitSuccess} />
